@@ -1,0 +1,14 @@
+server.port=8070
+
+#注册进eureka的名称
+spring.application.name=eureka-client-config
+
+eureka.client.service-url.defaultZone=http://eureka7001:8761/eureka/
+eureka.instance.prefer-ip-address=true
+
+#gitee的仓库地址
+spring.cloud.config.server.git.uri=https://gitee.com/chaojiangcj/springcloud-learn-config.git
+spring.cloud.config.server.git.username=你的用户名
+spring.cloud.config.server.git.password=你的密码
+#配置仓库需要找的文件路径
+spring.cloud.config.server.git.search-paths=eureka-client-*
