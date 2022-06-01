@@ -1,5 +1,5 @@
 server.port=8070
-
+12
 #注册进eureka的名称
 spring.application.name=eureka-client-config
 
